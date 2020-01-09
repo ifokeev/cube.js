@@ -78,5 +78,6 @@
     "react-app-rewired": "^2.1.0",
     "recursive-readdir": "^2.2.2",
     "terser-webpack-plugin": "^1.2.3"
-  }
+  },
+  "gitHead": "6f2dea3253db4540e81a95110fd019e22797280e"
 }

@@ -44,5 +44,6 @@
   "fesm2015": "dist/fesm2015/cubejs-client-ngx.js",
   "typings": "dist/cubejs-client-ngx.d.ts",
   "metadata": "dist/cubejs-client-ngx.metadata.json",
-  "sideEffects": false
+  "sideEffects": false,
+  "gitHead": "6f2dea3253db4540e81a95110fd019e22797280e"
 }

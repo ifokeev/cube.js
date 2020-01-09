@@ -47,5 +47,6 @@
     "testcontainers": "^1.1.10",
     "uuid": "^3.3.2"
   },
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "gitHead": "6f2dea3253db4540e81a95110fd019e22797280e"
 }

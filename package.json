@@ -7,7 +7,7 @@
     "watch": "rollup -c -w",
     "example": "http-server",
     "watch-local": "CUBEJS_API_URL=http://localhost:6020/cubejs-api/v1 rollup -c -w",
-    "publish-all": "lerna publish --registry http://localhost:4873 --force-publish=* --no-verify-access"
+    "publish-all": "lerna publish from-package --registry http://localhost:4873 --no-verify-access --no-push --legacy-auth"
   },
   "author": "Statsbot, Inc.",
   "dependencies": {

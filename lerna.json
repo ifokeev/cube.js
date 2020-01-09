@@ -1,12 +1,6 @@
 {
- "packages": [
-  "packages/*"
- ],
- "version": "0.13.13",
- "registry": "http://localhost:4873",
- "command": {
-  "publish": {
-   "verifyAccess": false
-  }
- }
+  "packages": [
+    "packages/*"
+  ],
+  "version": "0.13.13"
 }

@@ -36,5 +36,6 @@
     "eslint-plugin-react": "^7.15.1",
     "prop-types": "^15.6.2",
     "react": "^16.10.2"
-  }
+  },
+  "gitHead": "6f2dea3253db4540e81a95110fd019e22797280e"
 }
