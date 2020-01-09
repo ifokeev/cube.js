@@ -6,7 +6,8 @@
     "build": "rollup -c",
     "watch": "rollup -c -w",
     "example": "http-server",
-    "watch-local": "CUBEJS_API_URL=http://localhost:6020/cubejs-api/v1 rollup -c -w"
+    "watch-local": "CUBEJS_API_URL=http://localhost:6020/cubejs-api/v1 rollup -c -w",
+    "publish-all": "lerna publish --registry http://localhost:4873 --force-publish=*"
   },
   "author": "Statsbot, Inc.",
   "dependencies": {
@@ -53,5 +54,8 @@
     "type": "git",
     "url": "https://github.com/cube-js/cube.js.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "registry":"http://localhost:4873"
+  }
 }
